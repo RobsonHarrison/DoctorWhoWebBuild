@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Added javascript-->
+    <script>
+        function myFunction(){
+            document.getElementById("newfunc").innerHTML = "hello world"
+        }
+    </script>
+  </head>
+  <body>
+    <h2>What can Javascript do?</h2>
+
+    <p id="hello">Javascript can change content on the page</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('hello').innerHTML = 'Hello everyone, this is made with javascript!'"
+    >
+      Click me for something cool!
+    </button>
+
+    <button type="button" 
+onclick="document.getElementById('hello').innerHTML = 'Javascript can change content on the page'">
+Click me to change me back!
+</button>
+
+<!--Java function in the head-->
+<p id="newfunc">Some text</p>
+<button type="button" onclick="myFunction()">See what this button does</button>
+  </body>
+</html>

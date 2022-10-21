@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr.Who - Home</title>
+
+    <!--Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- local CSS -->
+    <link href="/CSS/Stylesheet.css" rel="stylesheet" type="text/css" />
+    <!--Google Font-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&family=Roboto:ital,wght@0,100;0,900;1,100;1,700;1,900&display=swap");
+    </style>
+    <script src="/JAVASCRIPT/Lists.js"></script>
+  </head>
+  <body>
+   
+    <header>
+      <!-- Navigation Bar Open- fixed top -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-fluid">
+          
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample03"
+            aria-controls="navbarExample03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div class="collapse navbar-collapse" id="navbarExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="/HTML/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/HTML/Heroes.html">Heroes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/HTML/Villain.html">Villains</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://shop.doctorwho.tv/"
+                  >Doctor Who Store</a
+                >
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Close-->
+
+      <!-- Header Open- image and heading-->
+      <div class="jumbotron">
+        <div class="p-5 text-center bg-image headimg">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <br />
+                <h1 class="mb-3">DOCTOR WHO</h1>
+                <h4 class="mb-3">Fanverse</h4>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header Close-->
+
+    <!--Image Links - photo cards-->
+    
+    <div class="container d-flex justify-content-center" style="padding-top: 30px">
+      <div class="row" >
+        <div class="col-sm-4 text-center">
+          <div class="card" style="width: 18rem;" >
+            <img
+              src="/IMAGES/cyberhomecard.jpeg"
+              class="card-img-top"
+              alt="Doctor Who Villains"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Villains</h5>
+              <p class="card-text">
+                Explore the world of Doctor Who Villains. Daleks, Cybermen,
+                Autons, check out our top ranking of Villains.
+              </p>
+              <a href="#" class="btn btn-primary">Villains</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4 text-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/IMAGES/jackhomecard.jpeg"
+              class="card-img-top"
+              alt="Doctor Who Heroes"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Heroes</h5>
+              <p class="card-text">
+                The world of Doctor Who certainly hasn't lacked a showcase of
+                Heroes over the series. Who would you choose to save the day?
+              </p>
+              <a href="#" class="btn btn-primary">Hero</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4 text-center">
+          <div class="card" style="width: 18rem; ">
+            <img
+              src="/IMAGES/tardishomecard.jpeg"
+              class="card-img-top"
+              alt="Tardis Facts"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tardis Facts</h5>
+              <p class="card-text">
+                Time and Relative Dimension in Space. Just like the Tardis, the
+                facts are also never ending.
+              </p>
+              <a href="#" class="btn btn-primary">Explore the Tardis</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Photo card end-->
+    <script>
+      src =
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js";
+      integrity =
+        "sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3";
+      crossorigin = "anonymous";
+    </script>
+  </body>
+</html>

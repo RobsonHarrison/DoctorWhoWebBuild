@@ -1,0 +1,33 @@
+body{
+  font-family: 'LATO', sans-serif;
+}
+.h1.title {
+  text-shadow: 2px 2px #ff0000;
+}
+#h1.title {
+  text-shadow: 2px 2px #ff0000;
+}
+
+.container1{
+  padding-top: 25px;
+}
+
+.navbar-nav  li a:hover {
+  color: #00396C !important;
+}
+
+.mb-3{
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+/*Header Image*/
+.headimg{
+  
+          background-image: url('/IMAGES/vortex.jpeg');
+          height: 344px;
+          margin-top: 58px;
+        
+}
+ .pageheading{
+  text-align: center;
+ }
